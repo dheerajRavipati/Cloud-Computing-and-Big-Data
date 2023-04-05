@@ -1,0 +1,210 @@
+2023.03.30 16:09:02 INFO  Started: Metals version 0.11.11 in workspace '/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/dheerajravipati/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.30 16:09:04 INFO  time: initialize in 1.94s
+2023.03.30 16:09:07 WARN  Build server is not auto-connectable.
+2023.03.30 16:09:07 WARN  no build tool detected in workspace '/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.30 16:09:07 WARN  no build target for: /Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/SparkMatMul/src/main/scala/MatMul.scala
+2023.03.30 16:09:14 INFO  no build target found for /Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/SparkMatMul/src/main/scala/MatMul.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.03.30 16:09:19 INFO  time: code lens generation in 4.06s
+2023.03.30 16:15:41 WARN  no build target for: /Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java
+2023.03.30 16:15:44 WARN  Running javac-semanticdb failed for file:///Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring%202023/Cloud%20Computing%20and%20Big%20Data/Project%202/src/main/java/Multiply.java. Output:
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:3: error: package org.apache.hadoop.conf does not exist
+import org.apache.hadoop.conf.*;
+^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:4: error: package org.apache.hadoop.util does not exist
+import org.apache.hadoop.util.*;
+^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:5: error: package org.apache.hadoop.fs does not exist
+import org.apache.hadoop.fs.*;
+^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:6: error: package org.apache.hadoop.io does not exist
+import org.apache.hadoop.io.*;
+^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:7: error: package org.apache.hadoop.mapreduce does not exist
+import org.apache.hadoop.mapreduce.*;
+^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:8: error: package org.apache.hadoop.mapreduce.lib.input does not exist
+import org.apache.hadoop.mapreduce.lib.input.*;
+^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:9: error: package org.apache.hadoop.mapreduce.lib.output does not exist
+import org.apache.hadoop.mapreduce.lib.output.*;
+^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:11: error: cannot find symbol
+class Pair implements WritableComparable<Pair> {
+                      ^
+  symbol: class WritableComparable
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:51: error: cannot find symbol
+class Elem implements Writable {
+                      ^
+  symbol: class Writable
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:80: error: cannot find symbol
+public class Multiply extends Configured implements Tool {
+                              ^
+  symbol: class Configured
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:80: error: cannot find symbol
+public class Multiply extends Configured implements Tool {
+                                                    ^
+  symbol: class Tool
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:88: error: cannot find symbol
+  public static class MatrixM extends Mapper<Object, Text, Pair, Elem> {
+                                      ^
+  symbol:   class Mapper
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:88: error: cannot find symbol
+  public static class MatrixM extends Mapper<Object, Text, Pair, Elem> {
+                                                     ^
+  symbol:   class Text
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:90: error: cannot find symbol
+    public void map(Object key, Text value, Context context)
+                                ^
+  symbol:   class Text
+  location: class MatrixM
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:90: error: cannot find symbol
+    public void map(Object key, Text value, Context context)
+                                            ^
+  symbol:   class Context
+  location: class MatrixM
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:111: error: cannot find symbol
+  public static class MatrixN extends Mapper<Object, Text, Pair, Elem> {
+                                      ^
+  symbol:   class Mapper
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:111: error: cannot find symbol
+  public static class MatrixN extends Mapper<Object, Text, Pair, Elem> {
+                                                     ^
+  symbol:   class Text
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:113: error: cannot find symbol
+    public void map(Object key, Text value, Context context)
+                                ^
+  symbol:   class Text
+  location: class MatrixN
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:113: error: cannot find symbol
+    public void map(Object key, Text value, Context context)
+                                            ^
+  symbol:   class Context
+  location: class MatrixN
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:133: error: cannot find symbol
+  public static class MatrixReducer extends Reducer<Pair, Elem, Pair, DoubleWritable> {
+                                            ^
+  symbol:   class Reducer
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:133: error: cannot find symbol
+  public static class MatrixReducer extends Reducer<Pair, Elem, Pair, DoubleWritable> {
+                                                                      ^
+  symbol:   class DoubleWritable
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:134: error: cannot find symbol
+    public void reduce(Pair key, Iterable<Elem> values, Context context)
+                                                        ^
+  symbol:   class Context
+  location: class MatrixReducer
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:23: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:29: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:35: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:1: error: semanticdb-javac: unknown flag '2023/Cloud'
+import java.io.*;
+^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:65: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:72: error: method does not override or implement a method from a supertype
+  @Override
+  ^
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:157: error: cannot find symbol
+      context.write(key, new DoubleWritable(result));
+                             ^
+  symbol:   class DoubleWritable
+  location: class MatrixReducer
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:188: error: cannot find symbol
+    Configuration conf = new Configuration();
+    ^
+  symbol:   class Configuration
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:188: error: cannot find symbol
+    Configuration conf = new Configuration();
+                             ^
+  symbol:   class Configuration
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:189: error: cannot find symbol
+    Job job = Job.getInstance(conf);
+    ^
+  symbol:   class Job
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:189: error: cannot find symbol
+    Job job = Job.getInstance(conf);
+              ^
+  symbol:   variable Job
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:195: error: cannot find symbol
+    MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, MatrixM.class);
+                                         ^
+  symbol:   class Path
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:195: error: cannot find symbol
+    MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, MatrixM.class);
+                                                        ^
+  symbol:   class TextInputFormat
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:195: error: cannot find symbol
+    MultipleInputs.addInputPath(job, new Path(args[0]), TextInputFormat.class, MatrixM.class);
+    ^
+  symbol:   variable MultipleInputs
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:196: error: cannot find symbol
+    MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, MatrixN.class);
+                                         ^
+  symbol:   class Path
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:196: error: cannot find symbol
+    MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, MatrixN.class);
+                                                        ^
+  symbol:   class TextInputFormat
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:196: error: cannot find symbol
+    MultipleInputs.addInputPath(job, new Path(args[1]), TextInputFormat.class, MatrixN.class);
+    ^
+  symbol:   variable MultipleInputs
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:197: error: cannot find symbol
+    job.setOutputFormatClass(TextOutputFormat.class);
+                             ^
+  symbol:   class TextOutputFormat
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:198: error: cannot find symbol
+    FileOutputFormat.setOutputPath(job, new Path(args[2]));
+                                            ^
+  symbol:   class Path
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:198: error: cannot find symbol
+    FileOutputFormat.setOutputPath(job, new Path(args[2]));
+    ^
+  symbol:   variable FileOutputFormat
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:204: error: cannot find symbol
+    int res = ToolRunner.run(new Configuration(), new Multiply(), args);
+                                 ^
+  symbol:   class Configuration
+  location: class Multiply
+/Users/dheerajravipati/Library/CloudStorage/OneDrive-UniversityofTexasatArlington/MyCourses/Spring 2023/Cloud Computing and Big Data/Project 2/src/main/java/Multiply.java:204: error: cannot find symbol
+    int res = ToolRunner.run(new Configuration(), new Multiply(), args);
+              ^
+  symbol:   variable ToolRunner
+  location: class Multiply
+44 errors
+2023.03.30 16:15:44 INFO  time: code lens generation in 1.39s
+2023.03.31 22:46:53 INFO  Shutting down server
+2023.03.31 22:46:53 INFO  shutting down Metals
+2023.03.31 22:46:53 INFO  Exiting server
